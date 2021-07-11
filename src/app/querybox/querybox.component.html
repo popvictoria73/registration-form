@@ -1,0 +1,35 @@
+<section class="Query">
+    <h1> Customer-Query-Box</h1>
+    <input type="checkbox" id="click" >
+    <label for="click">
+    <i class="fab fa-facebook-messenger"></i>
+    <i class="fas fa-times"></i>
+    </label>
+    
+    <div class="wrapper">
+       <div class=" fas fa-smile  head-text"> ZONAL-DESK</div>
+       <div class="chat-box">
+          <div class="desc-text">Please fill out the form below to start chatting with the available zonal engineer.
+          </div>
+          <form action="#">
+             <div class="field">
+                <input type="text" minlength="3"  placeholder="Your Name"  required> 
+             </div>
+             <div class="field">
+                <input type="email" placeholder="Email Address" required>
+             </div>
+             <div class="chat-footer">
+                <textarea placeholder="Type your Query" required></textarea>
+                <div class="btn btn-default btn-file">
+                   <i class="fas fa-paperclip"></i> 
+                   <input type="file" name="attachment">
+                 </div>
+             </div>
+             <div class="field">
+                <button type="submit" onclick="return confirm('Your Query has been Submitted!')">SUBMIT</button>
+             </div>
+             
+             
+          </form>
+       </div>
+    </div>

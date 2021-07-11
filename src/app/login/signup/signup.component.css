@@ -1,0 +1,18 @@
+.register-box{
+    background-color: navajowhite;
+    border: 1px black solid;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 5px;
+}
+.card{
+    background-color:lightyellow;
+    padding: 1px;
+    border-radius: 10px;
+    line-height: 5px;
+}
+.register-logo{
+    padding: 10px;
+    border-radius: 10px;
+}

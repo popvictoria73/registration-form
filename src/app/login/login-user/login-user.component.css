@@ -1,0 +1,9 @@
+.login-box{
+    background-color: aliceblue;
+    padding: 2em;
+    border: 1px black solid;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 30px;
+
+}
